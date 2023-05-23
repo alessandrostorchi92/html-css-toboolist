@@ -5,8 +5,13 @@
     font-family: Helvetica, Arial;
 }
 
+body {
+    background-color: #ececec;   
+}
+
 header {
     height: 100px;
+    background-color: white;
 }
 
 #logo {
@@ -24,17 +29,14 @@ h1 {
     padding-top: 25px;
 }
 
-#container-background {
-    height: 1000px;
-    background-color: rgb(236, 236, 236);
-}
-
 #rectangle-box {
     width: 900px;
     height: 700px;
+    margin-left: 60px;
     margin: auto;
-    border-radius: 10px;
+    margin-top: 40px;
     background-color: white;
+    border-radius: 10px;
 }
 
 .calltoaction1 {
@@ -50,28 +52,48 @@ h1 {
 
 .text-calltoaction1 {
     color: white;
+    display: inline-block;
     font-size: 14px;
+    padding-top: 5px;
     padding-left: 8px;
 }
 
 .calltoaction2 {
-    height: 30px;
-    width: 100px;
     display: inline-block;
-    background-color: white;
+    height: 30px;
+    width: 90px;background-color: white;
     border-radius: 5px;
     border: 2px solid #C8CED2;
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top: 15px;   
 }
 
 .text-calltoaction2 {
     color: #C8CED2;
+    display: inline-block;
     font-size: 14px;
-    padding-left: 8px;
+    padding-left: 6px;
+    padding-top: 5px;
 }
 
 hr {
     border: 1px solid #F6F8F9;
     margin-top: 10px;
 }
+
+h2 {
+    display: inline-block;
+    color: #434751;
+}
+
+h3 {
+    display: inline-block;
+    color: #434751;
+}
+
+.firstlist {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 40px;
+    
+}
+
