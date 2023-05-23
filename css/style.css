@@ -4,13 +4,9 @@
     box-sizing: border-box;
 }
 
-
 header {
     height: 100px;
-    background-color: rgb(235, 235, 47);
-    
 }
-
 
 #logo {
     display: inline-block;
@@ -32,4 +28,12 @@ h1 {
     
 }
 
+#background-main {
+    height: 1000px;
+    background-color: rgb(236, 236, 236);
+}
 
+.table-todolist {
+    width: 900px;
+    margin: auto;
+}
