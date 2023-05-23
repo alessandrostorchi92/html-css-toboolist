@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, Arial;
 }
 
 header {
@@ -13,27 +14,64 @@ header {
     vertical-align: middle;
     padding-left: 20px;
     padding-top: 25px;
-    
 }
 
 h1 {
     display: inline-block;
-    font-family: Helvetica, Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: #031732;
     vertical-align: middle;
     padding-top: 25px;
-
-    ;
-    
 }
 
-#background-main {
+#container-background {
     height: 1000px;
     background-color: rgb(236, 236, 236);
 }
 
-.table-todolist {
+#rectangle-box {
     width: 900px;
+    height: 700px;
     margin: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.calltoaction1 {
+    height: 30px;
+    width: 80px;
+    display: inline-block;
+    background-color: #47ACF1;
+    border-radius: 5px;
+    border: 2px solid #33A5EF;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.text-calltoaction1 {
+    color: white;
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+.calltoaction2 {
+    height: 30px;
+    width: 100px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #C8CED2;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.text-calltoaction2 {
+    color: #C8CED2;
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+hr {
+    border: 1px solid #F6F8F9;
+    margin-top: 10px;
 }
