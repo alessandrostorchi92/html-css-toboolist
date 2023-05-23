@@ -12,10 +12,24 @@ header {
 }
 
 
-h1 {
+#logo {
     display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-top: 25px;
+    
 }
 
-main {
-    background-color: black;
+h1 {
+    display: inline-block;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #031732;
+    vertical-align: middle;
+    padding-top: 25px;
+
+    ;
+    
 }
+
+
